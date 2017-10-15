@@ -38,8 +38,5 @@ gem 'spring',        group: :development
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
-group :production do gem 'pg'
-gem 'rails_12factor' gem 'puma'
-end
 
 gem 'sqlite3', group: [:development, :test]
